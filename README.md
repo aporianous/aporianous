@@ -8,7 +8,7 @@
   AST and interpreter, a `prophesy` (Monte Carlo) primitive, and self-modifying
   functions. **Open-core** — the language and tooling are open; the engine is
   private. → [repo](https://github.com/aporianous/morpheus) · [interactive tutorial](https://aporianous.github.io/morpheus/)
-- **Perseus** — a **wave-dynamic, local-first AI runtime**. It runs on hardware
+- **Perseus** — a **local-first AI runtime**. It runs on hardware
   you own, answers with a **confidence score you can check**, and **refuses
   when it doesn't know**. → [interactive demo](https://github.com/DrSinister31/perseus-demo) · [aporianous.com](https://aporianous.com)
 
