@@ -1,14 +1,21 @@
 # Aporia Nous
 
-**Local-first AI, autonomous agents, and the systems underneath them.**
+**I build local-first AI — the language, the runtime, and the agents on top.**
 
-I build the parts of a system that have to be fast, local and correct — memory
-and retrieval, native performance engines, data pipelines, and agent automation
-— and I measure what I ship.
+## Flagship
+
+- **Morpheus** — a small programming language and toolchain: its own lexer,
+  parser, AST, interpreter and VM, plus a **native compiler that emits C++**.
+  Used to build the performance-critical parts of the systems below.
+- **Perseus** — a **wave-dynamic, local-first AI runtime**. It runs on hardware
+  you own, answers with a **confidence score you can check**, and **refuses
+  when it doesn't know**. → [interactive demo](https://github.com/DrSinister31/perseus-demo) · [aporianous.com](https://aporianous.com)
+
+## Also
 
 - Agent memory & retrieval (deterministic, model-free)
-- Backend & API services (FastAPI, Docker, RCON, CI/CD)
-- Automation & bots (Discord, workflows, MCP)
+- Data pipelines, backend APIs & Docker
+- Automation, bots & MCP
 
 ## Selected work
 
@@ -20,7 +27,7 @@ and retrieval, native performance engines, data pipelines, and agent automation
 - **Proximity-voice installer + Discord verification** — a one-click installer that sets up and configures a Mumble voice server for a game community, pre-connects clients, and ties each user to their Discord account via a bot-issued 6-digit code. → [Sinister-s-Park-Mumble](https://github.com/DrSinister31/Sinister-s-Park-Mumble)
 
 **2026-08**
-- **Morpheus — a small language + native compiler** — designed and implemented a language (lexer, parser, AST, interpreter, VM) plus a native compiler that emits C++; used for the performance-critical parts below. *Proprietary core — described, not published.*
+- **Morpheus — language + native compiler** (see Flagship). *Proprietary core — described, not published.*
 - **TB-scale data pipeline** — streamed a 1.16 TB corpus at ~72 MB/s across 33 concurrent streams with zero rate-limit failures, an additive checkpoint/resume ledger, and de-duplication gates. *Proprietary core.*
 
 **2026-09**
