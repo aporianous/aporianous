@@ -4,9 +4,10 @@
 
 ## Flagship
 
-- **Morpheus** — a small programming language and toolchain: its own lexer,
-  parser, AST, interpreter and VM, plus a **native compiler that emits C++**.
-  Used to build the performance-critical parts of the systems below.
+- **Morpheus** — a small, sovereign programming language: its own lexer, parser,
+  AST and interpreter, a `prophesy` (Monte Carlo) primitive, and self-modifying
+  functions. **Open-core** — the language and tooling are open; the engine is
+  private. → [repo](https://github.com/aporianous/morpheus) · [interactive tutorial](https://aporianous.github.io/morpheus/)
 - **Perseus** — a **wave-dynamic, local-first AI runtime**. It runs on hardware
   you own, answers with a **confidence score you can check**, and **refuses
   when it doesn't know**. → [interactive demo](https://github.com/DrSinister31/perseus-demo) · [aporianous.com](https://aporianous.com)
@@ -27,7 +28,7 @@
 - **Proximity-voice installer + Discord verification** — a one-click installer that sets up and configures a Mumble voice server for a game community, pre-connects clients, and ties each user to their Discord account via a bot-issued 6-digit code. → [Sinister-s-Park-Mumble](https://github.com/DrSinister31/Sinister-s-Park-Mumble)
 
 **2026-08**
-- **Morpheus — language + native compiler** (see Flagship). *Proprietary core — described, not published.*
+- **Morpheus — language + toolchain** (see Flagship). Open-core language; the native engine is private.
 - **TB-scale data pipeline** — streamed a 1.16 TB corpus at ~72 MB/s across 33 concurrent streams with zero rate-limit failures, an additive checkpoint/resume ledger, and de-duplication gates. *Proprietary core.*
 
 **2026-09**
